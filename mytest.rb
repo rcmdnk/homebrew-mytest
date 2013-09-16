@@ -9,6 +9,7 @@ class Mytest < Formula
 
   head 'https://github.com/rcmdnk/homebrew-mytest.git', :branch => 'master'
 
+  skip_clean 'bin'
   # test
   def install
     prefix.install 'bin'
