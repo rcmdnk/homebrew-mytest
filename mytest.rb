@@ -1,6 +1,6 @@
 require 'formula'
 
-HOMEBREW_MYTEST_VERSION = '0.0.3'
+HOMEBREW_MYTEST_VERSION = '0.0.1'
 
 class Mytest < Formula
   homepage 'https://github.com/rcmdnk/homebrew-mytest/'
@@ -9,7 +9,7 @@ class Mytest < Formula
 
   head 'https://github.com/rcmdnk/homebrew-mytest.git', :branch => 'master'
 
-  #skip_clean 'bin'
+  skip_clean 'bin'
   # test
   def install
     prefix.install 'bin'
