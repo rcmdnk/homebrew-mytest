@@ -12,7 +12,7 @@ class Mytest < Formula
   # test
   def install
     prefix.install 'bin'
-    prefix.install 'lib'
+    #prefix.install 'lib'
     (bin+'mytest').chmod 0755
   end
 end
