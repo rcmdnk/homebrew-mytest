@@ -1,6 +1,6 @@
 require 'formula'
 
-HOMEBREW_MYTEST_VERSION = '0.0.4'
+HOMEBREW_MYTEST_VERSION = '0.0.2'
 
 class Mytest < Formula
   homepage 'https://github.com/rcmdnk/homebrew-mytest/'
